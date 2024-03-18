@@ -1,0 +1,77 @@
+      <main class="main">
+        <section class="top">
+          <div class="freedom">
+            <h2 class="section-title">НЕВЕРОЯТНОЕ ОЩУЩЕНИЕ СВОБОДЫ</h2>
+          </div>
+          <div class="freedom__inner">
+            <div class="freedom__inner-title">ПОЗВОЛЬТЕ СЕБЕ ПРИКЛЮЧЕНИЕ</div>
+            <div class="freedom__inner-text">
+              Задача организации, в особенности же дальнейшее развитие различных
+              форм деятельности влечет за собой процесс внедрениям и
+              модернизации соответствующий условий активизации. Таким образом
+              начало повседневной работы по формированию позиции влечет.
+            </div>
+            <div class="freedom__inner-title">
+              ВВЕРХ НА 6000 МЕТРОВ НАД УРОВНЕМ МОРЯ
+            </div>
+            <div class="freedom__inner-text">
+              Задача организации, в особенности же дальнейшее развитие различных
+              форм деятельности влечет за собой процесс внедрения и модернизации
+              соответствующий условий активизации. Таким образом начало
+              повседневной работы по формированию позиции влечет.
+            </div>
+            <button class="freedom__inner-btn">Узнать больше</button>
+          </div>
+          <div class="freedom__img">
+            <img class="freedom__img-1" src="img/freedom-1.jpg" alt="" />
+            <img class="freedom__img-1" src="img/freedom-2.jpg" alt="" />
+            <img class="freedom__img-1" src="img/freedom-3.jpg" alt="" />
+          </div>
+        </section>
+      </main>
+
+.top
+ position: relative
+
+.section__title
+  margin-left: 17.8rem
+  display: inline-block
+
+
+.freedom
+  display: grid
+  grid-template-columns: repeat(1fr, 1fr)
+  &__inner-title
+    display: flex
+    align-items: center
+    color: #777
+    font-family: "Roboto", sans-serif
+    font-size: 2rem
+    font-weight: 700
+    letter-spacing: 0.2rem
+    margin-bottom: 1rem
+  &__inner-text
+    width: 48rem
+    height: 12.5rem
+    color: #777
+    font-family: "Roboto", sans-serif
+    font-size: 16px
+    font-weight: 400
+    line-height: 2.2rem
+    letter-spacing: 0.2rem
+    margin-bottom: 5rem
+  &__img
+    width: 62rem
+    height: 36rem
+
+
+
+h2
+  background: var(--gradien-brown_light-brown_darck, linear-gradient(90deg, #C3956A 3.65%, #A14F03 100%))
+  background-clip: text
+  -webkit-background-clip: text
+  -webkit-text-fill-color: transparent
+  font-size: 3.6rem
+  font-weight: 800
+  letter-spacing: 1rem
+  margin-bottom: 8rem
