@@ -922,7 +922,7 @@ body {
   margin-right: 5rem;
 }
 @media only screen and (max-width: 1240px) {
-  .footer__item {
+  .footer__item:not(:last-child) {
     margin-right: 1.6rem;
   }
 }
